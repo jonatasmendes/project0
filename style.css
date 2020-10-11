@@ -1,0 +1,88 @@
+.menuHeader{
+    margin-top: -100px;
+    margin-left: 80%;
+}
+
+.menuHeader > ul > li {
+    display: inline;
+    float: left;
+}
+
+.menuHeader > ul > li > a {
+    padding: 10px;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    
+}
+
+.searchForm {
+  margin:auto;
+  margin-top: 8%;
+  width: 50%;
+  padding: 10px;
+}
+
+.searchForm > img {
+    margin-left: 30%;
+    margin-bottom: 10px;
+    margin-top: 28%;
+}
+svg {
+    margin-top: 6px;
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    fill: currentColor;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 15px;
+
+    
+}
+.searchBarContainer{
+    height:45px;
+    border:none;
+    outline: none;
+    margin:0 auto;
+    width:575px;
+    border-radius:30px;
+    border:1px solid #dcdcdc;
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    font-size:16px;
+   
+  }
+  .searchBarContainer > .searchbar{
+    width: auto;
+    border: 0px;
+    height: 15px;
+    margin-left: 30px;
+    margin-top: 12px;
+    width: 500px;
+    outline: none;
+    font-size: 18px;
+    color: #707070;  }
+  
+.buttonContainer{
+    margin-left: 30%;
+    margin-top: 10px;
+    width: 100%;
+    
+}
+ .buttonContainer > .button{
+    background-color: #f5f5f5;
+    border:none;
+    color:#707070;
+    font-size:15px;
+    padding: 10px 20px;
+    border-radius:4px;        
+  }
+  .buttonContainer > .button:hover{
+    border: 1px solid #c8c8c8;
+    padding: 9px 19px;
+    color:#808080;
+  }
+  .buttonContainer > .button:focus{
+    border:1px solid #4885ed;
+    padding: 9px 19px;
+  }
