@@ -1,26 +1,39 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        
-    </head>
-  
-        <ul>
-           <li><a href="search.html">Search</a></li>
-          <li><a href="advancedSearch.html">Advanced Search</a></li>
-        </ul>  
-    
-    <div class="logo">
-      <img alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-    </div>
-    <form action="https://google.com/search">
-    <div class="bar">
-      <input class="searchbar" type="text" name="as_q" placeholder="all these words:">
-      <input class="searchbar" type="text" name="as_epq" placeholder="this exact word or phrase:">
-      <input class="searchbar" type="text" name="as_oq" placeholder="any of these words:">
-      <input class="searchbar" type="text" name="as_eq" placeholder="none of these words:">
-    </div>
-    <div class="buttons">
-      <button class="button" type="submit">Advanced Search</button>
-    </div>
-    </form>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="advancedSearchPage.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+<div class="advancedMenuHeader">
+  <div class="logo">
+    <img alt="Google" class="advancedGoogleLogo"
+      src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+  </div>
+  <div class="menuList">
+    <ul>
+      <li><a href="search.html">Google Search</a></li>
+      <li><a href="imageSearch.html">Images</a></li>
+    </ul>
+  </div>
+  <div class="advancedSearch">
+    <span>Advanced Search</span>
+  </div>
+</div>
+
+<form action="https://google.com/search">
+
+  <input class="searchbar" type="text" name="as_q" placeholder="all these words:">
+  <input class="searchbar" type="text" name="as_epq" placeholder="this exact word or phrase:">
+  <input class="searchbar" type="text" name="as_oq" placeholder="any of these words:">
+  <input class="searchbar" type="text" name="as_eq" placeholder="none of these words:">
+
+
+  <button class="button" type="submit">Advanced Search</button>
+
+</form>
+</body>
