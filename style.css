@@ -47,6 +47,17 @@ header>ul>li>a:hover {
     height: 92px;
 }
 
+.searchFormContainer>.searchForm>.logo-subtext {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: relative;
+    white-space: nowrap;
+    width: 50px;
+    margin-left: 440px;
+    margin-top: 95px;
+    margin-bottom: -120px;
+}
+
 .searchFormContainer>.searchForm .inputField {
     height: 100px;
     margin-top: 150px;
@@ -87,10 +98,21 @@ header>ul>li>a:hover {
     margin-top: 12px;
 }
 
+.searchFormContainer>.searchForm .inputField .inputFieldSearchBar .cam {
+    background-size: 24px; 
+}
+
+.searchFormContainer>.searchForm .inputField .inputFieldSearchBar .cam img {
+    height: 24px; 
+    width: 24px;
+    margin-top: 7px;
+    margin-right: 10px;
+}
 .searchFormContainer>.searchForm .searchButtons {
     margin: 10px auto;
     width: 50%;
 }
+
 .searchFormContainer>.searchForm .buttonsContainer {
     margin: 5px auto;
     width: 80%;
@@ -125,5 +147,4 @@ header>ul>li>a:hover {
     white-space: pre;
     align-items: flex-start;
     box-sizing: border-box;
-
 }
