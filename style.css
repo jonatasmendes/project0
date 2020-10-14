@@ -111,12 +111,12 @@ header>ul>li>a:hover {
 }
 .searchFormContainer>.searchForm .searchButtons {
     margin: 10px auto;
-    width: 50%;
+    width: 100%;
 }
 
 .searchFormContainer>.searchForm .buttonsContainer {
     margin: 5px auto;
-    width: 80%;
+    width: 50%;
 }
 
 .searchFormContainer>.searchForm .searchButtons input[type="submit"] {

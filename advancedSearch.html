@@ -4,36 +4,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="advancedSearchPage.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="advancedSearch.css">
 </head>
-<div class="advancedMenuHeader">
-  <div class="logo">
-    <img alt="Google" class="advancedGoogleLogo"
-      src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-  </div>
-  <div class="menuList">
-    <ul>
-      <li><a href="search.html">Google Search</a></li>
-      <li><a href="imageSearch.html">Images</a></li>
-    </ul>
-  </div>
-  <div class="advancedSearch">
+<header>
+  <img src="https://ssl.gstatic.com/gb/images/i1_1967ca6a.png" class="advancedLogo">
+  <ul>
+    <li><a href="search.html">Google Search</a></li>
+    <li><a href="imageSearch.html">Images</a></li>
+  </ul>
+</header>
+
+<div class="appbar">
+  <div class=spanAdvanced>
     <span>Advanced Search</span>
   </div>
 </div>
 
-<form action="https://google.com/search">
-
-  <input class="searchbar" type="text" name="as_q" placeholder="all these words:">
-  <input class="searchbar" type="text" name="as_epq" placeholder="this exact word or phrase:">
-  <input class="searchbar" type="text" name="as_oq" placeholder="any of these words:">
-  <input class="searchbar" type="text" name="as_eq" placeholder="none of these words:">
-
-
+<div class="advancedSearchForm">
+  
+    <form action="https://google.com/search">
+         
+        
+      
+      <div class="grid-container">
+      <div class="grid-column-1">
+        <div class="grid-item grid-item-1"><span>Find pages with ...</span></div>
+        <div class="grid-item grid-item-2"><span>all these words:</span></div>
+        <div class="grid-item grid-item-3"><span>this exact phrase or phrase:</span></div>
+        <div class="grid-item grid-item-4"><span>any of these words:</span></div>
+        <div class="grid-item grid-item-5"><span>none of these words:</span></div>
+      </div>
+      <div class="grid-column-2">
+        <div class="grid-item grid-item-1"></div>
+        <div class="grid-item grid-item-2"><input class="searchbar" type="text" name="as_q" placeholder="all these words:"></div>
+        <div class="grid-item grid-item-3"><input class="searchbar" type="text" name="as_epq" placeholder="this exact word or phrase:"></div>
+        <div class="grid-item grid-item-4"><input class="searchbar" type="text" name="as_oq" placeholder="any of these words:"></div>
+        <div class="grid-item grid-item-5"><input class="searchbar" type="text" name="as_eq" placeholder="none of these words:"></div>
+      </div>
+      <div class="grid-column-3">
+        <div class="grid-item grid-item-1"><span>Do this in the search box.</span></div>
+        <div class="grid-item grid-item-2"><span>Type the important words: rat terrier tricolor</span></div>
+        <div class="grid-item grid-item-3"><span>Enclose exact words in quotation marks: "rat terrier"</span></div>
+        <div class="grid-item grid-item-4"><span>Type OR among all the words you are looking for: miniature OR standard</span></div>
+        <div class="grid-item grid-item-5"><span>Put a minus sign before the words you don't want: -rodder, - "Jack Russell"</span></div>
+        
+      </div>
+  </div>
   <button class="button" type="submit">Advanced Search</button>
-
-</form>
+  </form>
+</div>
 </body>
